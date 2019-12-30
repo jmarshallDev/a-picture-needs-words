@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = 'en-US'>
+<head>
+  <meta charset = 'utf-8'>
+  <title>A Picture Needs Words</title>
+  <link rel = 'stylesheet' type = 'text/css' href = 'styles.css'>
+</head>
+<body>
+  <ul class = 'navigator'>
+    <a href = 'about.html'>About</a>
+    <a href = 'create.html'>Create</a>
+    <a href = 'view.html'>View</a>
+  </ul>
+  <h2 class = 'page-title'>Creative Space</h2>
+  <p class = 'page-description'>Below is your muse. Write whatever you please.
+    Your only limits are your imagination and 750 words.</p>
+  <img id = 'image' src = 'holland-4093234_1280.jpg'>
+  <p> </p>
+  <p id = 'titleWordCounter'>Title Word Count: 0</p>
+  <textarea id = 'textTitle' rows = '1' onchange = 'checkTitle(this)'></textarea>
+  <p id = 'wordCounter'>Story Word Count: 0</p>
+  <textarea id = 'userText' rows = '20' onchange = 'checkWordLen(this)'></textarea>
+  <button id = 'createBttn' onclick = 'saveText()'>Submit</button>
+  <script src = 'my_js.js'></script>
+</script>
+</body>
+</html>
