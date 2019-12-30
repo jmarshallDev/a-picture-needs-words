@@ -1,0 +1,82 @@
+body {
+  background-color: #C7DCE0;
+}
+
+.navigator {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigator a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 32.4%;
+  text-decoration: none;
+}
+.site-title {
+  text-align: center;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-description {
+  text-align: center;
+  font-size: 15px;
+}
+
+#last-weeks {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#titleWordCounter {
+  margin-left: 24.75%;
+}
+
+#textTitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#wordCounter {
+  margin-left: 24.75%;
+}
+
+#userText {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#createBttn {
+  display: block;
+  margin-left: 71.45%;
+}
+
+#viewBttn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#communityStory {
+  diplay: block;
+  margin-left: 20%;
+  margin-right: 20%;
+}
